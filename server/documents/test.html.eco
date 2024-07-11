@@ -142,7 +142,7 @@ type       : 'Library'
                 <div class="sub header">
                   <% if 'developments' in @getEnvironments(): %>
                   <% else: %>
-                  <iframe class="github" src="//ghbtns.com/github-btn.html?user=semantic-org&amp;repo=semantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+                  <iframe class="github" src="//ghbtns.com/github-btn.html?user=semantic-org&amp;repo=patina-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
                   <% end %>
                   <%=@document.description %>
                 </div>
@@ -152,14 +152,14 @@ type       : 'Library'
 
               <div class="ui right floated main menu">
                 <% if @document.type is 'UI Element' or @document.type is 'UI View' or @document.type is 'UI Collection' or @document.type is 'UI Module': %>
-                <a class="bug popup icon item" data-content="Edit This Page" href="https://github.com/Semantic-Org/Semantic-UI-Docs/edit/master/server/documents/<%= @document.elementType %>s/<%= @document.element %>.html.eco">
+                <a class="bug popup icon item" data-content="Edit This Page" href="https://github.com/mjasonrice/Patina-UI-Docs/edit/master/server/documents/<%= @document.elementType %>s/<%= @document.element %>.html.eco">
                   <i class="edit icon"></i>
                 </a>
-                <a class="bug popup icon item" data-content="Submit Bug Report" href="https://github.com/Semantic-Org/Semantic-UI/issues/new?title=[<%= @document.title %>] - Bug Name">
+                <a class="bug popup icon item" data-content="Submit Bug Report" href="https://github.com/mjasonrice/Patina-UI/issues/new?title=[<%= @document.title %>] - Bug Name">
                   <i class="bug icon"></i>
                 </a>
                 <% end %>
-                <a class="github popup icon item" data-content="View project on GitHub" href="https://github.com/Semantic-Org/Semantic-UI">
+                <a class="github popup icon item" data-content="View project on GitHub" href="https://github.com/mjasonrice/Patina-UI">
                   <i class="alternate github icon"></i>
                 </a>
               </div>
@@ -221,8 +221,8 @@ type       : 'Library'
                 </div>
                 <div class="ui divided equal height relaxed center aligned framework grid">
                   <div class="column">
-                    <div class="ui header">Semantic UI</div>
-                    <a class="ui primary button" href="https://github.com/Semantic-Org/Semantic-UI/archive/master.zip">
+                    <div class="ui header">Patina UI</div>
+                    <a class="ui primary button" href="https://github.com/mjasonrice/Patina-UI/archive/master.zip">
                       Download ZIP
                     </a>
                     <a class="ui button" href="http://learnsemantic.com/guide/expert.html">Getting Started</a>
@@ -231,13 +231,13 @@ type       : 'Library'
                       <div class="field">
                         <label>NPM</label>
                         <div class="ui fluid input">
-                          <input type="text" readonly="readonly" placeholder="Copy Link" value="npm install semantic-ui">
+                          <input type="text" readonly="readonly" placeholder="Copy Link" value="npm install patina-ui">
                         </div>
                       </div>
                       <div class="field">
                         <label>Git</label>
                         <div class="ui fluid input">
-                          <input type="text" readonly="readonly" placeholder="Copy Link" value="https://github.com/Semantic-Org/Semantic-UI.git">
+                          <input type="text" readonly="readonly" placeholder="Copy Link" value="https://github.com/mjasonrice/Patina-UI.git">
                         </div>
                       </div>
                     </div>
@@ -246,10 +246,10 @@ type       : 'Library'
                 <div class="ui divided equal height relaxed center aligned standalone grid">
                   <div class="column">
                     <div class="ui header">Standalone <%=@document.title %></div>
-                    <a class="ui primary button" href="https://github.com/Semantic-Org/UI-<%=@document.title %>/archive/master.zip">
+                    <a class="ui primary button" href="https://github.com/mjasonrice/UI-<%=@document.title %>/archive/master.zip">
                       Download ZIP
                     </a>
-                    <a class="ui button" href="https://github.com/Semantic-Org/UI-<%=@document.title %>/">
+                    <a class="ui button" href="https://github.com/mjasonrice/UI-<%=@document.title %>/">
                       View GitHub
                     </a>
                     <h4 class="ui header">Package Managers</h4>
@@ -257,19 +257,19 @@ type       : 'Library'
                       <div class="field">
                         <label>Bower</label>
                         <div class="ui fluid input">
-                          <input type="text" readonly="readonly" placeholder="Copy Link" value="bower install semantic-ui-<%=@document.element %>">
+                          <input type="text" readonly="readonly" placeholder="Copy Link" value="bower install patina-ui-<%=@document.element %>">
                         </div>
                       </div>
                       <div class="field">
                         <label>NPM</label>
                         <div class="ui fluid input">
-                          <input type="text" readonly="readonly" placeholder="Copy Link" value="npm install semantic-ui-<%=@document.element %>">
+                          <input type="text" readonly="readonly" placeholder="Copy Link" value="npm install patina-ui-<%=@document.element %>">
                         </div>
                       </div>
                       <div class="field">
                         <label>Git</label>
                         <div class="ui fluid input">
-                          <input type="text" readonly="readonly" placeholder="Copy Link" value="https://github.com/Semantic-Org/UI-<%=@document.title %>.git">
+                          <input type="text" readonly="readonly" placeholder="Copy Link" value="https://github.com/mjasonrice/UI-<%=@document.title %>.git">
                         </div>
                       </div>
                     </div>

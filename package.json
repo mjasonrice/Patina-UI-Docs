@@ -1,13 +1,13 @@
 {
-  "name": "semantic-ui-docs",
-  "title": "Semantic UI Docs",
-  "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
-  "homepage": "http://www.semantic-ui.com",
+  "name": "patina-ui-docs",
+  "title": "Patina UI Docs",
+  "description": "Patina empowers designers and developers by creating a shared vocabulary for UI.",
+  "homepage": "http://www.patina-ui.com",
   "author": "Jack Lukic <jacklukic@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Semantic-Org/Semantic-UI-Docs.git"
+    "url": "git://github.com/mjasonrice/Patina-UI-Docs.git"
   },
   "dependencies": {
     "docpad": "~6.79.4",

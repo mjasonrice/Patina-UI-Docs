@@ -1,6 +1,6 @@
 /*!
- * # Semantic UI 2.2.14 - State
- * http://github.com/semantic-org/semantic-ui/
+ * # Patina UI 2.2.14 - State
+ * http://github.com/mjasonrice/Patina-UI/
  *
  *
  * Released under the MIT license

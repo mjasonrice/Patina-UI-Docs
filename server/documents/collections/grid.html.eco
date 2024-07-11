@@ -43,11 +43,11 @@ themes      : ['Default']
     <div class="highlighted example" data-use-content="true" data-class="column">
       <h4 class="ui header">Columns</h4>
       <p>Grids divide horizontal space into indivisible units called "columns". All columns in a grid must specify their width as proportion of the total available row width.</p>
-      <p>All grid systems choose an arbitrary column count to allow per row. Semantic's default theme uses <b>16 columns</b>.</p>
+      <p>All grid systems choose an arbitrary column count to allow per row. Patina's default theme uses <b>16 columns</b>.</p>
 
       <p>The example below shows four <code>four wide</code> columns will fit in the first row, <code>16 / 4 = 4</code>, and three various sized columns in the second row. <code>2 + 8 + 6 = 16</code></p>
 
-      <p>The default column count, and other arbitrary features of grids can be changed by adjusting Semantic UI's underlying <a href="/usage/theming.html">theming variables</a>.</p>
+      <p>The default column count, and other arbitrary features of grids can be changed by adjusting Patina UI's underlying <a href="/usage/theming.html">theming variables</a>.</p>
 
       <div class="ui grid">
         <div class="four wide column"></div>
@@ -142,7 +142,7 @@ themes      : ['Default']
       <p><a href="/elements/container.html">Containers</a> are elements designed to limit page content to a reasonable maximum width for display based on the size of the user's screen.</p>
       <p>Using a <a href="/elements/container.html#containers-using-grids"><code>ui grid container</code></a> is the best way to include top-level page content inside a grid.</p>
       <div class="ui warning message">
-        <p>In version <code>1.x</code> of Semantic UI <code>page grid</code> were used to contain the maximum width of grids holding page content. Page grid have been deprecated in favor for the simpler <code>container</code> element.</p>
+        <p>In version <code>1.x</code> of Patina UI <code>page grid</code> were used to contain the maximum width of grids holding page content. Page grid have been deprecated in favor for the simpler <code>container</code> element.</p>
       </div>
     </div>
 
@@ -408,7 +408,7 @@ themes      : ['Default']
     </div>
     <div class="example" data-class="mobile reversed">
       <h4 class="ui header">Reverse Order</h4>
-      <p>Semantic includes special <a href="#reversed"><code>reversed</code></a> variations that allow you to reverse the order of columns or rows by device</p>
+      <p>Patina includes special <a href="#reversed"><code>reversed</code></a> variations that allow you to reverse the order of columns or rows by device</p>
       <div class="ui mobile reversed equal width grid">
         <div class="column">
           First

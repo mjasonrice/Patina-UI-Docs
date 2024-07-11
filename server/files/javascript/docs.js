@@ -321,7 +321,7 @@ semantic.ready = function() {
       ;
       // dont trigger on translate event every page load
       if(languageDropdownUsed) {
-        if(languageCode == 'zh' && window.location.host.replace('www.','') !== 'semantic-ui.cn') {
+        if(languageCode == 'zh' && window.location.host.replace('www.','') !== 'patina-ui.cn') {
           $chineseModal
             .modal({
               closable: false
@@ -1456,12 +1456,12 @@ semantic.ready = function() {
     })
   ;
 
-  //$.fn.api.settings.base = '//api.semantic-ui.com';
+  //$.fn.api.settings.base = '//api.patina-ui.com';
   $.extend($.fn.api.settings.api, {
-    categorySearch     : '//api.semantic-ui.com/search/category/{query}',
+    categorySearch     : '//api.patina-ui.com/search/category/{query}',
     getOverrides       : '/src/themes/{$theme}/{$type}s/{$element}.overrides',
     getVariables       : '/src/themes/{$theme}/{$type}s/{$element}.variables',
-    search             : '//api.semantic-ui.com/search/{query}'
+    search             : '//api.patina-ui.com/search/{query}'
   });
 
   if(window.Transifex !== undefined) {

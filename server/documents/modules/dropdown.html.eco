@@ -1501,7 +1501,7 @@ themes      : ['Default', 'GitHub', 'Material']
           .dropdown({
             apiSettings: {
               // this url parses query server side and returns filtered results
-              url: '//api.semantic-ui.com/tags/{query}'
+              url: '//api.patina-ui.com/tags/{query}'
             },
           })
         ;
@@ -1589,7 +1589,7 @@ themes      : ['Default', 'GitHub', 'Material']
           .dropdown({
             apiSettings: {
               // this url just returns a list of tags (with API response expected above)
-              url: '//api.semantic-ui.com/tags/'
+              url: '//api.patina-ui.com/tags/'
             },
             filterRemoteData: true
           })
@@ -2982,7 +2982,7 @@ themes      : ['Default', 'GitHub', 'Material']
               alreadySetup : 'Once a select has been initialized behaviors must be called on the created ui dropdown',
               labels       : 'Allowing user additions currently requires the use of labels.',
               method       : 'The method you called is not defined.',
-              noTransition : 'This module requires ui transitions <https://github.com/Semantic-Org/UI-Transition>'
+              noTransition : 'This module requires ui transitions <https://github.com/mjasonrice/UI-Transition>'
             }
             </div>
           </td>

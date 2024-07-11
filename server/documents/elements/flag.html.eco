@@ -32,7 +32,7 @@ type        : 'UI Element'
 
     <h2 class="ui header">Types</h2>
     <div class="ui info message">
-      <p>Many flag sets use SVG to render flags at multiple sizes. However svg flags usually appear blurry or render improperly at smaller sizes. Semantic's default theme uses an image sprite solution which provides crisper icons, but without the ability to resize</p>
+      <p>Many flag sets use SVG to render flags at multiple sizes. However svg flags usually appear blurry or render improperly at smaller sizes. Patina's default theme uses an image sprite solution which provides crisper icons, but without the ability to resize</p>
     </div>
     <table class="ui selectable sortable compact celled striped definition table">
       <thead>

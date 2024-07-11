@@ -1,6 +1,6 @@
-# Semantic Docs
+# Patina Docs
 
-This folder contains the templates used to generate the static website for [semantic-ui.com](http://www.semantic-ui.com). 
+This folder contains the templates used to generate the static website for [patina-ui.com](http://www.patina-ui.com). 
 
 This repo can be used to create a fork of the UI documents to serve as styleguide for your project.
 
@@ -28,7 +28,7 @@ Then finally to start the server
 docpad run
 ```
 
-### Generating Semantic UI for Docs
+### Generating Patina UI for Docs
 
 Assuming two sibling folders:
 
@@ -37,7 +37,7 @@ Assuming two sibling folders:
 
 * Clone both repos to respective folders
 * npm install in both directories
-* Go through Semantic UI installer steps (auto)
+* Go through Patina UI installer steps (auto)
 * In `./ui` folder `gulp build-docs` (builds files to ./docs)
 * In `./docs` folder `docpad install` then `docpad run`
 * Go to http://localhost:9778/ docs should be there
@@ -72,7 +72,7 @@ docpad deploy-ghpages --env static
 
 If you find any typos or mistakes, submitting a fix is easy!
 
-- [Open the `documents/` folder](https://github.com/Semantic-Org/Semantic-UI-Docs/tree/master/server/documents) on GitHub
+- [Open the `documents/` folder](https://github.com/mjasonrice/Patina-UI-Docs/tree/master/server/documents) on GitHub
 - Click the “Edit” button on the appropriate page
 - Click to submit a pull request
 

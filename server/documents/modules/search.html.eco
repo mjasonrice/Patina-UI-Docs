@@ -263,7 +263,7 @@ type        : 'UI Module'
     <h2 class="ui dividing header">Initializing</h2>
 
     <div class="ui message">
-      Search is built ontop of Semantic <a href="/behaviors/api.html">API</a> behaviors to allow for URL templating, and UI state management. Please check out the API documentation for more information on adjusting API settings.
+      Search is built ontop of Patina <a href="/behaviors/api.html">API</a> behaviors to allow for URL templating, and UI state management. Please check out the API documentation for more information on adjusting API settings.
     </div>
 
     <h4 class="ui header">Automatic Routing</h4>
@@ -930,7 +930,7 @@ type        : 'UI Module'
           <td colspan="2">
             <div class="code">
             error : {
-              source      : 'Cannot search. No source used, and Semantic API module was not included',
+              source      : 'Cannot search. No source used, and Patina API module was not included',
               noResults   : 'Your search returned no results',
               logging     : 'Error in debug logging, exiting.',
               noTemplate  : 'A valid template name was not specified.',

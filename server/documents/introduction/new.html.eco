@@ -18,7 +18,7 @@ type        : 'Main'
     <h2 class="ui dividing header">
       Solving Empty State
     </h2>
-    <p>Semantic <code>2.4</code> brings a new components for handling content loading <a href="/elements/placeholder.html"><code>ui placeholder</code></a>, as well as a new type of <code>segment</code> used to reserve space for content: <a href="/elements/segment.html#empty"><code>ui placeholder segment</code></a>.</p>
+    <p>Patina <code>2.4</code> brings a new components for handling content loading <a href="/elements/placeholder.html"><code>ui placeholder</code></a>, as well as a new type of <code>segment</code> used to reserve space for content: <a href="/elements/segment.html#empty"><code>ui placeholder segment</code></a>.</p>
 
     <P>Additionally several important component updates are included in this release.
     <div class="ui large bulleted list">
@@ -44,7 +44,7 @@ type        : 'Main'
         <div class="item">
           <i class="large github middle aligned icon"></i>
           <div class="content">
-            <a class="header">Semantic-Org/Semantic-UI-Docs</a>
+            <a class="header">mjasonrice/Patina-UI-Docs</a>
             <div class="description">Updated 22 mins ago</div>
           </div>
         </div>
@@ -185,8 +185,8 @@ type        : 'Main'
   <div class="ui tab" data-tab="twothree">
     <h2 class="ui dividing header">A New Approach</h2>
 
-    <p>After an extended period of patches, Semantic UI <code>2.3</code> marks the return to significant feature changes for the project.</p>
-    <p>In upcoming Semantic releases we will be releasing more frequently, but with smaller changesets, to make it easier for users to upgrade and adjust to global changes.</p>
+    <p>After an extended period of patches, Patina UI <code>2.3</code> marks the return to significant feature changes for the project.</p>
+    <p>In upcoming Patina releases we will be releasing more frequently, but with smaller changesets, to make it easier for users to upgrade and adjust to global changes.</p>
 
     <h2 class="ui dividing header">New Features</h2>
     <div class="no icon example">
@@ -201,14 +201,14 @@ type        : 'Main'
         <div class="column"><i class="hand paper icon"></i>Hand Paper </div>
         <div class="column"><i class="hand scissors icon"></i>Hand Scissors</div>
       </div>
-      <p>Semantic UI <a href="/elements/icon.html">icon docs</a> now includes a global icon search with easy copy and paste access to html</p>
+      <p>Patina UI <a href="/elements/icon.html">icon docs</a> now includes a global icon search with easy copy and paste access to html</p>
     </div>
 
 
     <div class="no modal example">
       <h4 class="ui header">Flexbox Modals and Dimmers</h4>
 
-      <p>Semantic UI <code>2.3</code> includes a rewrite of modal to include non-js flexbox positioning for vertical centering. No longer will you have to call <code>$('.ui.modal').modal('refresh')</code> if content height changes to recenter.</p>
+      <p>Patina UI <code>2.3</code> includes a rewrite of modal to include non-js flexbox positioning for vertical centering. No longer will you have to call <code>$('.ui.modal').modal('refresh')</code> if content height changes to recenter.</p>
 
       <p>In addition there's a new setting <code>centered: false</code> which makes it easier to do top aligned modals when the internal may be dynamic and you dont want content to shift vertically.</p>
 
@@ -312,7 +312,7 @@ type        : 'Main'
     </div>
     <div class="no centering example">
       <h4 class="ui header">Arrow Aligment on Small Popups</h4>
-      <p>Semantic <a href="/modules/popup.html">popups</a> now detects when horizontally aligning the popup on it's arrow is more reasonable than matching edges with a popup.</p>
+      <p>Patina <a href="/modules/popup.html">popups</a> now detects when horizontally aligning the popup on it's arrow is more reasonable than matching edges with a popup.</p>
       <div class="ui info message">
         To use this feature be sure to specify <code>movePopup: false</code> in your settings
       </div>
@@ -407,13 +407,13 @@ type        : 'Main'
     <h2 class="ui dividing header">By The Numbers</h2>
     <p><code>2.2</code> represents nearly a half year of updates, many new features, and bug patches.</p>
     <div class="ui large bulleted list">
-      <div class="item"><b>124</b> <a href="https://github.com/Semantic-Org/Semantic-UI/issues?q=is%3Aissue+milestone%3A2.1+is%3Aclosed" target="_blank">closed issues</a></div>
+      <div class="item"><b>124</b> <a href="https://github.com/mjasonrice/Patina-UI/issues?q=is%3Aissue+milestone%3A2.1+is%3Aclosed" target="_blank">closed issues</a></div>
       <div class="item"><b>40</b> new features</div>
       <div class="item"><b>70</b> bug fixes</div>
     </div>
 
     <p>For the complete list of bugs, their accompanying issue threads and the fixes please consult the release notes</p>
-    <a class="ui button" href="https://github.com/Semantic-Org/Semantic-UI/blob/master/RELEASE-NOTES.md#version-220---june-26-2016" target="_blank">Release Notes</a>
+    <a class="ui button" href="https://github.com/mjasonrice/Patina-UI/blob/master/RELEASE-NOTES.md#version-220---june-26-2016" target="_blank">Release Notes</a>
 
     <h2 class="ui dividing header">Project Changes</h2>
 
@@ -554,7 +554,7 @@ type        : 'Main'
     </div>
     <div class="icon example">
       <h4 class="ui header">New Icons</h4>
-      <p>2.2 of Semantic UI includes the latest version of <a href="http://fontawesome.io/" target="_blank">Font Awesome</a> with 50+ new icons. For a complete breakdown of new icons please check <a href="http://fontawesome.io/whats-new/" target="_blank">Font Awesome's list</a>.</p>
+      <p>2.2 of Patina UI includes the latest version of <a href="http://fontawesome.io/" target="_blank">Font Awesome</a> with 50+ new icons. For a complete breakdown of new icons please check <a href="http://fontawesome.io/whats-new/" target="_blank">Font Awesome's list</a>.</p>
       <div class="ui doubling five column grid">
         <div class="column"><i class="wheelchair icon"></i>Wheelchair</div>
         <div class="column"><i class="asl interpreting icon"></i>American Sign Language (ASL) Interpreting</div>
@@ -621,7 +621,7 @@ type        : 'Main'
     </div>
     <div class="memory example">
       <h4 class="ui header">Reduced Memory Leaks</h4>
-      <p><a href="/modules/sticky.html">Sticky</a>, <a href="/behaviors/visibility.html">visibility</a>, <a href="/modules/popup.html">popup</a>, and <a href="modules/dropdown.html">dropdown</a>, modules that can attach events on initialization to <code>window</code> and <code>body</code>, for example to detect changes in window scroll, will now use <a href="https://github.com/Semantic-Org/Semantic-UI/blob/master/dist/components/visibility.js#L143" target="_blank">additional mutation observers</a> to determine if they are removed from the DOM and automatically fire their <code>destroy</code> behaviors.</p>
+      <p><a href="/modules/sticky.html">Sticky</a>, <a href="/behaviors/visibility.html">visibility</a>, <a href="/modules/popup.html">popup</a>, and <a href="modules/dropdown.html">dropdown</a>, modules that can attach events on initialization to <code>window</code> and <code>body</code>, for example to detect changes in window scroll, will now use <a href="https://github.com/mjasonrice/Patina-UI/blob/master/dist/components/visibility.js#L143" target="_blank">additional mutation observers</a> to determine if they are removed from the DOM and automatically fire their <code>destroy</code> behaviors.</p>
       <p>This can prevent memory leaks when the parent element of a component is removed without the element is propertly teared down by calling its <code>destroy</code> behavior.</p>
       <div class="ui primary button">Simulate Memory Leak</div>
       <div class="ui display segment">
@@ -927,13 +927,13 @@ type        : 'Main'
     <h2 class="ui dividing header">The Tally</h2>
     <p><code>2.1</code> sums up around two months of work, including many new features, and updates to help bulletproof existing UI.</p>
     <div class="ui large bulleted list">
-      <div class="item"><b>72</b> <a href="https://github.com/Semantic-Org/Semantic-UI/issues?q=is%3Aissue+milestone%3A2.1+is%3Aclosed" target="_blank">closed issues</a></div>
+      <div class="item"><b>72</b> <a href="https://github.com/mjasonrice/Patina-UI/issues?q=is%3Aissue+milestone%3A2.1+is%3Aclosed" target="_blank">closed issues</a></div>
       <div class="item"><b>70</b> bug fixes</div>
       <div class="item"><b>23</b> new UI updates</div>
       <div class="item"><b>14</b> feature enhancements</div>
     </div>
 
-    <p>To see the complete list of updates <a href="https://github.com/Semantic-Org/Semantic-UI/blob/<%= @getBranch() %>/RELEASE-NOTES.md#version-210---sep-01-2015">review our release notes</a></p>
+    <p>To see the complete list of updates <a href="https://github.com/mjasonrice/Patina-UI/blob/<%= @getBranch() %>/RELEASE-NOTES.md#version-210---sep-01-2015">review our release notes</a></p>
 
     <div class="example" data-class="labeled, left labeled">
       <h4 class="ui header">Labeled Buttons</h4>
@@ -1592,7 +1592,7 @@ type        : 'Main'
 
       <p>To see the full list of what's changed check out the project's release notes.</p>
 
-      <a href="https://github.com/Semantic-Org/Semantic-UI/blob/<%= @getBranch() %>/RELEASE-NOTES.md#version-200---june-30-2015" target="_blank" class="ui button">View Release Notes</a>
+      <a href="https://github.com/mjasonrice/Patina-UI/blob/<%= @getBranch() %>/RELEASE-NOTES.md#version-200---june-30-2015" target="_blank" class="ui button">View Release Notes</a>
     </div>
 
 
@@ -1607,7 +1607,7 @@ type        : 'Main'
 
     <div class="colored example">
       <h4 class="ui header">Complete Spectrum</h4>
-      <p>Semantic now includes twelve named colors, enough for most languages to <a href="https://en.wikipedia.org/wiki/Linguistic_relativity_and_the_color_naming_debate#Berlin_and_Kay" target="_blank">distinguish between colors</a>. New in 2.0 are: olive, violet, brown and grey.</p>
+      <p>Patina now includes twelve named colors, enough for most languages to <a href="https://en.wikipedia.org/wiki/Linguistic_relativity_and_the_color_naming_debate#Berlin_and_Kay" target="_blank">distinguish between colors</a>. New in 2.0 are: olive, violet, brown and grey.</p>
       <a class="ui grey label">Grey</a>
       <a class="ui red pointing label">Red</a>
       <a class="ui orange tag label">Orange</a>
@@ -1800,7 +1800,7 @@ type        : 'Main'
       <div class="ignored code" data-type="javascript">
         // somewhere in app
         $.api.settings.api = {
-          queryTags: '//api.semantic-ui.com/tags/{query}'
+          queryTags: '//api.patina-ui.com/tags/{query}'
         };
         $('.ui.dropdown')
           .dropdown({
@@ -1924,7 +1924,7 @@ type        : 'Main'
         .dropdown({
           apiSettings: {
             cache : 'local',
-            url: '//api.semantic-ui.com/tags/{query}'
+            url: '//api.patina-ui.com/tags/{query}'
           }
         })
       ;

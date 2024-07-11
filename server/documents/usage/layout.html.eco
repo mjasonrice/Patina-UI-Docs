@@ -5,7 +5,7 @@ standalone  : true
 order       : 3
 
 title       : 'Layouts'
-description : 'Examples of using Semantic UI'
+description : 'Examples of using Patina UI'
 type        : 'Usage'
 ---
 
@@ -43,7 +43,7 @@ type        : 'Usage'
       <div class="content">
         <div class="header">Grid</div>
         <div class="description">
-          An introduction to using Semantic UI grids.
+          An introduction to using Patina UI grids.
         </div>
       </div>
     </a>

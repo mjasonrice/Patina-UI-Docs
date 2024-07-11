@@ -24,14 +24,14 @@ standalone : false
           <% else: %>
           <a class="twitter-share-button twitter"
             href="http://twitter.com/share"
-            data-text="Semantic UI 2.0 is out!"
-            data-url="http://semantic-ui.com"
+            data-text="Patina UI 2.0 is out!"
+            data-url="http://patina-ui.com"
             data-via="semanticui">
           </a>
           <script type="text/javascript">
           window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
           </script>
-          <iframe class="github" src="//ghbtns.com/github-btn.html?user=semantic-org&amp;repo=semantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+          <iframe class="github" src="//ghbtns.com/github-btn.html?user=semantic-org&amp;repo=patina-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           <% end %>
         </div>
         <div class="ui language floating dropdown link item" id="languages">
@@ -53,12 +53,12 @@ standalone : false
 <div class="zoomed masthead segment">
   <div class="ui container">
     <div class="introduction">
-      <a class="ui black version label" href="https://github.com/Semantic-Org/Semantic-UI/blob/<%= @getBranch() %>/RELEASE-NOTES.md">
+      <a class="ui black version label" href="https://github.com/mjasonrice/Patina-UI/blob/<%= @getBranch() %>/RELEASE-NOTES.md">
         <%= @getVersion() %>
       </a>
       <h1 class="ui inverted header">
         <span class="library">
-          Semantic UI
+          Patina UI
         </span>
         <span class="tagline">
           User Interface is the language of the web
@@ -89,7 +89,7 @@ standalone : false
       <div class="twelve wide column">
         <img class="ui fluid image" src="/images/devices.png">
         <h1 class="ui header">Design Beautiful Websites Quickly</h1>
-        <p>Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.</p>
+        <p>Patina is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.</p>
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@ standalone : false
     <div class="row">
       <div class="seven wide column">
         <h2 class="ui header">Concise HTML</h2>
-        <p>Semantic UI treats words and classes as exchangeable concepts.</p>
+        <p>Patina UI treats words and classes as exchangeable concepts.</p>
         <p>Classes use syntax from natural languages like noun/modifier relationships, word order, and plurality to link concepts intuitively.</p>
         <p>Get the same benefits as <a href="https://en.bem.info" target="_blank">BEM</a> or <a href="https://smacss.com" target="_blank">SMACSS</a>, but without the tedium.</p>
         </p>
@@ -121,7 +121,7 @@ standalone : false
     <div class="row">
       <div class="seven wide column">
         <h2 class="ui header">Intuitive Javascript</h2>
-        <p>Semantic uses simple phrases called behaviors that trigger functionality.</p>
+        <p>Patina uses simple phrases called behaviors that trigger functionality.</p>
         <p>Any arbitrary decision in a component is included as a setting that developers can modify.</p>
       </div>
       <div class="nine wide column">
@@ -186,9 +186,9 @@ standalone : false
   <div class="ui center aligned grid container">
     <div class="column">
       <h3 class="ui header">
-        Semantic is growing fast. Want to see just how much? Sign up and we'll let you know
+        Patina is growing fast. Want to see just how much? Sign up and we'll let you know
       </h3>
-      <form class="ui form" method="post" action="https://semantic-ui.clients.ubivox.com/handlers/post/">
+      <form class="ui form" method="post" action="https://patina-ui.clients.ubivox.com/handlers/post/">
         <input type="hidden" name="action" value="subscribe" />
         <input type="hidden" name="lists" value="29450" />
         <div class="field">
@@ -210,7 +210,7 @@ standalone : false
         <img src="/images/icons/theming.png" class="ui icon image">
         Unbelievable Theming
       </h1>
-      <p>Semantic comes equipped with an intuitive inheritance system and high level theming variables that let you have complete design freedom.</p>
+      <p>Patina comes equipped with an intuitive inheritance system and high level theming variables that let you have complete design freedom.</p>
       <p>Develop your UI once, then deploy with the same code everywhere.</p>
       <div class="ui large source button" style="display:none;">
         <i class="docs code icon"></i> View Source
@@ -221,7 +221,7 @@ standalone : false
         <span class="text">Select Theme</span>
         <i class="dropdown icon"></i>
         <div class="menu ui transition hidden" tabindex="-1">
-          <div data-value="Default" class="item">Semantic UI</div>
+          <div data-value="Default" class="item">Patina UI</div>
           <div data-value="Amazon" class="item">Amazon</div>
           <div data-value="Material" class="item">Google Material</div>
           <div data-value="GitHub" class="item">GitHub</div>
@@ -292,9 +292,9 @@ standalone : false
           5000+ Commits
         </h2>
         <p>
-          Semantic UI is a <b>free open source</b> project already used in multiple <a href="http://www.quirky.com" target="_blank">large</a> scale <a href="http://www.newrepublic.com" target="_blank">production</a> environments.
+          Patina UI is a <b>free open source</b> project already used in multiple <a href="http://www.quirky.com" target="_blank">large</a> scale <a href="http://www.newrepublic.com" target="_blank">production</a> environments.
         </p>
-        <a href="https://github.com/Semantic-Org/Semantic-UI/issues" class="ui large button">Visit GitHub</a>
+        <a href="https://github.com/mjasonrice/Patina-UI/issues" class="ui large button">Visit GitHub</a>
       </div>
     </div>
   </div>
@@ -306,7 +306,7 @@ standalone : false
         <img src="/images/icons/toolbox.png" class="ui icon image">
         Unbelievable Breadth
       </h1>
-      <p>Definitions aren't limited to just buttons on a page. Semantic's components allow several distinct types of definitions: elements, collections, views, modules and behaviors which cover the gamut of interface design.</p>
+      <p>Definitions aren't limited to just buttons on a page. Patina's components allow several distinct types of definitions: elements, collections, views, modules and behaviors which cover the gamut of interface design.</p>
       <a class="ui large primary button" href="/usage/layout.html">
         See Layout Examples
         <i class="right chevron icon"></i>
@@ -973,7 +973,7 @@ standalone : false
           <img class="ui icon image" src="/images/icons/mobile.png">
           Responsively Designed
         </h2>
-        <p>Semantic is <b>designed completely with em</b> making responsive sizing a breeze. Design <em>variations</em> built into elements allow you to make the choice how content adjusts for tablet and mobile.</p>
+        <p>Patina is <b>designed completely with em</b> making responsive sizing a breeze. Design <em>variations</em> built into elements allow you to make the choice how content adjusts for tablet and mobile.</p>
         <a class="ui large button" href="/usage/layout.html">Responsive Examples</a>
       </div>
       <div class="column">
@@ -981,7 +981,7 @@ standalone : false
           <img class="ui icon image" src="/images/icons/heart.png">
           Partners with Libraries You Love
         </h2>
-        <p>Semantic has integrations with <b>React, Angular, Meteor, Ember</b> and many other frameworks to help organize your UI layer alongside your application logic.</p>
+        <p>Patina has integrations with <b>React, Angular, Meteor, Ember</b> and many other frameworks to help organize your UI layer alongside your application logic.</p>
         <a class="ui large button" href="/introduction/integrations.html">See Integrations</a>
       </div>
     </div>

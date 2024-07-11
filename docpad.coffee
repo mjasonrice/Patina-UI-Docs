@@ -24,7 +24,7 @@ docpadConfig = {
 		site:
 
 			# The production url of our website
-			url: "http://www.semantic-ui.com"
+			url: "http://www.patina-ui.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [],
@@ -34,11 +34,11 @@ docpadConfig = {
 			branch: "master",
 
 			# The default title of our website
-			title: "Semantic UI"
+			title: "Patina UI"
 
 			# The website description (for SEO)
 			description: """
-				Semantic empowers designers and developers by creating a shared vocabulary for UI.
+				Patina empowers designers and developers by creating a shared vocabulary for UI.
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -65,9 +65,9 @@ docpadConfig = {
 
 		getZip: ->
 			if @site.version
-				"https://github.com/Semantic-Org/Semantic-UI/archive/" + @site.version + ".zip"
+				"https://github.com/mjasonrice/Patina-UI/archive/" + @site.version + ".zip"
 			else
-				"https://github.com/Semantic-Org/Semantic-UI/archive/master.zip"
+				"https://github.com/mjasonrice/Patina-UI/archive/master.zip"
 
 		getPreparedTitle: ->
 			# if we have a document title, then we should use that and suffix the site's title onto it

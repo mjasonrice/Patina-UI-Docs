@@ -1,5 +1,5 @@
 /*  ******************************
-  Semantic Module: Carousel
+  Patina Module: Carousel
   Author: Jack Lukic
   Notes: First Commit May 28, 2013
 
